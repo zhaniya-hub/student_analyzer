@@ -1,0 +1,4 @@
+[
+  "tests/test_analyzer.py::test_calculate_average",
+  "tests/test_analyzer.py::test_get_status"
+]

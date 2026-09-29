@@ -1,25 +1,8 @@
-# Student Analyzer
+# pytest cache directory #
 
-Student Analyzer — студенттердің бағаларын талдауға арналған Python библиотекасы.
+This directory contains data from the pytest's cache plugin,
+which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
 
-## Мүмкіндіктері
+**Do not** commit this to version control.
 
-- Орташа бағаны есептеу
-- Студенттің статусын анықтау
-- Студент туралы толық ақпарат шығару
-
-## Орнату
-
-Бұл жобаны GitHub арқылы жүктеп алуға болады.
-
-## Қолдану
-
-```python
-from student_analyzer import calculate_average, get_status
-
-grades = [85, 90, 78, 92]
-
-average = calculate_average(grades)
-
-print(average)
-print(get_status(average))
+See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more information.
